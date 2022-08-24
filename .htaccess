@@ -1,0 +1,22 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteBase /preciodeldolar/
+
+############PAGES USERS
+RewriteRule ^/?$ index.php
+RewriteRule cambio-online?$ views/cambio-online.php
+RewriteRule dollar-variation?$ views/dollar-variation.php
+RewriteRule news?$ views/news.php
+
+############PAGES ADMIN
+RewriteRule admin?$ admin/index.php
+RewriteRule dashboard?$ admin/views/dashboard.php
+RewriteRule logout-adm?$ admin/controllers/prcss_logout-adm.php
+
+############# EVITAR QUE SE INGRESE A LAS CARPETAS
+Options -Indexes
+
+############# MENSAJE DE ERROR PERSONALIZADO
+#RewriteRule 404?$ views/404.php
+ErrorDocument 404 /views/404.php
