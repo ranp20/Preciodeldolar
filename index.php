@@ -57,7 +57,7 @@
 										<td>
 											<div class="c-descInfo">
 												<div class="c-descInfo__cRateNumb">3.730</div>
-												<div class="c-descInfo__cCurrency curr_asc-val">
+												<div class="c-descInfo__cCurrency curr_des-val">
 													<span>
 														<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#9A4280" width="13px" height="13px" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve"><g transform="rotate(180 245 245)"><g><polygon points="0,332.668 245.004,82.631 490,332.668 413.507,407.369 245.004,235.402 76.493,407.369"/></g></g></svg>
 													</span>
@@ -439,6 +439,7 @@
 			</div>
 		</section>
 	</main>
+	<?php require_once 'views/includes/inc-footer.php';?>
 	<script type="text/javascript" src="<?= $url;?>js/main.js"></script>
 	<script type="text/javascript" src="<?= $url;?>js/actions/home_convert-divise.js"></script>
 </body>

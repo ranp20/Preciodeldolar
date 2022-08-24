@@ -29,3 +29,15 @@
 		}
 	}
 }
+/* GRID-CONTAINER - FIT */
+@mixin grid-fit($min-width){
+  & {
+    display: grid;
+    grid-row-gap: 0.5rem;
+    grid-column-gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax($min-width, 1fr));
+    @media (min-width: 960px){
+      grid-column-gap: 0;
+    }
+  }
+}
