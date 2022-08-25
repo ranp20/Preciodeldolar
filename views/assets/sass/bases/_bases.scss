@@ -53,9 +53,20 @@ img{
 		padding-right: 0.5rem;
 	}
 }
+.box-redx_wtout-p{
+	@include max-width($max-width-redx);
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
 .one-hidden > option:first-child{
 	display: none !important;
 }
 .mgb-1{
 	margin-bottom: 1rem;
+}
+.talign-c{
+	text-align: center;
 }

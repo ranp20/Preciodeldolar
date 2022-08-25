@@ -7,6 +7,7 @@ RewriteBase /preciodeldolar/
 RewriteRule ^/?$ index.php
 RewriteRule cambio-online?$ views/cambio-online.php
 RewriteRule dollar-variation?$ views/dollar-variation.php
+RewriteRule casas-de-cambio?$ views/exchange-houses.php
 RewriteRule news?$ views/news.php
 
 ############PAGES ADMIN

@@ -35,7 +35,7 @@
 							</a>
 						</li>
 						<li class="c_Htop__c__ch__cOptions__mMobile__m__i">
-							<a href="dollar-variation" class="c_Htop__c__ch__cOptions__mMobile__m__link" title="Variación del Dólar">
+							<a href="casas-de-cambio" class="c_Htop__c__ch__cOptions__mMobile__m__link" title="Variación del Dólar">
 								<span>Casas de Cambio</span>
 							</a>
 						</li>
@@ -101,7 +101,7 @@
 							</a>
 						</li>
 						<li class="c_Htop__c__ch__cOptions__mDesk__m__i">
-							<a href="dollar-variation" class="c_Htop__c__ch__cOptions__mDesk__m__link" title="Variación del Dólar">
+							<a href="casas-de-cambio" class="c_Htop__c__ch__cOptions__mDesk__m__link" title="Variación del Dólar">
 								<span>Casas de Cambio</span>
 							</a>
 						</li>

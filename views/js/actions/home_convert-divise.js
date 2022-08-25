@@ -249,3 +249,9 @@ function startTimerHome(minTimeout) {
     }
   }, 1000);
 }
+
+// ------------ SLIDETOGGLE - TÍTULOS DE CONTENIDO GUÍA
+$(document).on("click",".btn_sTogg",function(){
+	$(this).next().slideToggle();
+	$(this).find(".btnIcon_sTogg").toggleClass("close");
+});

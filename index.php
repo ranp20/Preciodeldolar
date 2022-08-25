@@ -521,6 +521,80 @@
 				</div>
 			</div>
 		</section>
+		<section class="c_wrapper">
+			<div class="c_wrapper__c box-redx mgb-1">
+				<div class="c_wrapper__c__cdis">
+					<div class="c_wrapper__c__cdis__bgTitleWidth">
+						<div class="c_wrapper__c__cdis__bgTitleWidth__cBgTitle talign-c btn_sTogg">
+							<h2 class="c_wrapper__c__cdis__bgTitleWidth__cBgTitle__title">"Datos importantes sobre el dólar"</h2>
+							<span class="c_wrapper__c__cdis__bgTitleWidth__cBgTitle__cIcon btnIcon_sTogg">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" version="1.1" viewBox="0 0 700 700"><g xmlns="http://www.w3.org/2000/svg"><path d="m627.67 82.832c-4.668-8.1641-12.836-12.832-21-12.832h-513.34c-8.1641 0-16.332 4.668-21 12.832-4.668 8.168-3.5 17.5 1.168 24.5l256.67 373.33c4.668 5.832 11.668 10.5 18.668 10.5s15.168-3.5 18.668-10.5l256.67-373.33c6.9961-8.1641 6.9961-17.5 3.4961-24.5z"/></g></svg>
+							</span>
+						</div>
+						<div class="c_wrapper__c__cdis__bgTitleWidth__cCont">
+							<div class="c_wrapper__c__cdis__bgTitleWidth__cCont__cCol">
+								<section class="c_wrapper__c__cdis__bgTitleWidth__cCont__cCol__sec">
+									<div class="c_wrapper__c__cdis__bgTitleWidth__cCont__cCol__sec__cTitle">
+										<h2>¿Qué es COMPRA?</h2>
+									</div>
+									<div class="c_wrapper__c__cdis__bgTitleWidth__cCont__cCol__sec__cDesc">
+										<p>Es cuando una casa de cambio te COMPRA tus dólares.</p>
+									</div>
+								</section>
+								<section class="c_wrapper__c__cdis__bgTitleWidth__cCont__cCol__sec">
+									<div class="c_wrapper__c__cdis__bgTitleWidth__cCont__cCol__sec__cTitle">
+										<h2>¿Qué es VENTA?</h2>
+									</div>
+									<div class="c_wrapper__c__cdis__bgTitleWidth__cCont__cCol__sec__cDesc">
+										<p>Es cuando una casa de cambio te VENDE sus dólares.</p>
+									</div>
+								</section>
+							</div>
+							<p>El <strong>dólar</strong> es una moneda oficial de los Estados Unidos de América, cuya economía es una de las más importantes a las que el Perú está asociada.</p>
+							<p><strong>El dólar americano</strong> tiene un gran impacto en la economía mundial y se utiliza en las transacciones internacionales de todo el mundo, además es la divisa más utilizada por los turistas.</p>
+							<p><strong>El precio del dólar en Perú</strong> puede verse afectado por intervenciones del Banco Central de Reserva (BCR) a fin de estabilizar la cotización o el tipo de cambio del sol peruano. Asimismo, por diversos indicadores como el crecimiento del Producto Bruto Interno (PIB), el comportamiento de las exportaciones peruanas, la situación geopolítica internacional, etc.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="c_wrapper">
+			<div class="c_wrapper__c box-redx mgb-1">
+				<div class="c_wrapper__c__cdis">
+					<div class="c_wrapper__c__cdis__bgTitleWidth">
+						<div class="c_wrapper__c__cdis__bgTitleWidth__cBgTitle talign-c btn_sTogg">
+							<h2 class="c_wrapper__c__cdis__bgTitleWidth__cBgTitle__title">Preguntas Frecuentes</h2>
+							<span class="c_wrapper__c__cdis__bgTitleWidth__cBgTitle__cIcon btnIcon_sTogg">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" version="1.1" viewBox="0 0 700 700"><g xmlns="http://www.w3.org/2000/svg"><path d="m627.67 82.832c-4.668-8.1641-12.836-12.832-21-12.832h-513.34c-8.1641 0-16.332 4.668-21 12.832-4.668 8.168-3.5 17.5 1.168 24.5l256.67 373.33c4.668 5.832 11.668 10.5 18.668 10.5s15.168-3.5 18.668-10.5l256.67-373.33c6.9961-8.1641 6.9961-17.5 3.4961-24.5z"/></g></svg>
+							</span>
+						</div>
+						<div class="c_wrapper__c__cdis__bgTitleWidth__cCont">
+							<div class="c_wrapper__c__cdis__bgTitleWidth__cCont__item">
+								<h3 class="c_wrapper__c__cdis__bgTitleWidth__cCont__item__title">¿Son seguras las casas de cambio online?</h3>
+								<p>Sí. Las casas de cambio online suelen estar registradas en la Superintendencia de Banca, Seguros y AFP (SBS). Además, las transacciones y depósitos se realizan a través de entidades autorizadas por la SBS.</p>
+								<p>Otras de las características de las casas de cambio online es que puedes relizar la transacción desde la comodidad de tu casa u oficina, ahorrándote tiempo que sueles perder en las colas o en el tráfico.</p>
+								<p>Finalmente, y tal vez la característica más atractiva para los usuarios de las casas de cambio online es que su tipo de cambio es más competitivo, es decir, que obtienes un mejor tipo de cambio que en las agencias bancarias.</p>
+							</div>
+							<div class="c_wrapper__c__cdis__bgTitleWidth__cCont__item">
+								<h3 class="c_wrapper__c__cdis__bgTitleWidth__cCont__item__title">¿En qué lugar puedo realizar un camio considerado?</h3>
+								<p>Puedes cambiarlo en una entidad bancaria y consultar por el tipo de cambio preferencial de acuerdo a la cantidad a cambiar. Otra opción es cambiar tus dólares en casas de cambio online donde podrías conseguir un mejor tipo de cambio. Además, evitas desplazarte con dinero y exponerte a diversos riesgos, puedes hacerlo desde tu casa u oficina y te priorizas tu seguridad.</p>
+							</div>
+							<div class="c_wrapper__c__cdis__bgTitleWidth__cCont__item">
+								<h3 class="c_wrapper__c__cdis__bgTitleWidth__cCont__item__title">¿Cuál es el impacto del dólar sobre el sol?</h3>
+								<p>El dólar es la moneda oficial de los Estados Unidos de América, cuya economía tiene un gran impacto en el país a causa del volumen comercial que tiene en las importaciones.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="c_wrapper">
+			<div class="c_wrapper__c box-redx mgb-1">
+				<div class="c_wrapper__c__cGrpBtn">
+					<a href="/Preciodeldolar" class="c_wrapper__c__cGrpBtn__link" title="Comerzar cambio online">Comenzar cambio</a>
+				</div>
+			</div>
+		</section>
 	</main>
 	<?php require_once 'views/includes/inc-footer.php';?>
 	<script type="text/javascript" src="<?= $url;?>js/main.js"></script>
