@@ -373,7 +373,6 @@ $min-headertop : 4.5rem;
 			}
 		}
 		&__cdis{
-			display: flex;
 			&.d-fx{
 				display: flex;
 				flex: 0 0 100%;
@@ -913,6 +912,164 @@ $min-headertop : 4.5rem;
 					&__csubParagrap{
 						p{
 							color: $theme-clr-paragraph;
+						}
+					}
+				}
+			}
+			/* CONTENIDO - NOTICIAS DE LA PLATAFORMA */
+			&__cNewSlider{
+				&__cTitle{
+					margin-bottom: 1rem;
+				}
+				&__c{
+					position: relative;
+					&__cBtnIconSlide{
+						position: absolute;
+				    top: 20%;
+				    left: 0;
+				    transform: translateY(50%);
+				    z-index: 9;
+				    cursor: pointer;
+				    &.ps-x-left{
+							left: 0;
+							right: auto;
+							text-align: left;
+							margin-right: 0;
+							width: auto;
+							display: none;
+							@media (min-width: 768px){
+								display: inline-block;
+							}
+							@media (min-width: 1024px){
+								left: -54px;
+							}
+							.slider-arrow-left{
+								display: table;
+								text-align: center;
+								margin: 5px;
+								border: thin solid transparent;
+								width: 46px;
+								height: 44px;
+								background-color: #fff;
+								box-shadow: 0 5px 10px 0 rgba(0,0,0,.2);
+								border-radius: 10px;
+								&:hover{
+									background-color: #fff;
+									border: thin solid #fff;
+								}
+								svg{
+									position: relative;
+									top: 6px;
+		    					right: 2px;
+								}
+							}
+				    }
+				    &.ps-x-right{
+							right: 0;
+				    	left: auto;
+							text-align: right;
+							margin-left: auto;
+							width: auto;
+							display: none;
+							@media (min-width: 768px){
+								display: inline-block;
+							}
+							@media (min-width: 1024px){
+								right: -37px;
+							}
+							.slider-arrow-right{
+								display: table;
+								text-align: center;
+								margin: 5px;
+								border: thin solid transparent;
+								width: 46px;
+								height: 44px;
+								background-color: #fff;
+								box-shadow: 0 5px 10px 0 rgba(0,0,0,.2);
+								border-radius: 10px;
+								&:hover{
+									background-color: #fff;
+									border: thin solid #fff;
+								}
+								svg{
+									position: relative;
+									top: 6px;
+		    					left: 2px;
+		    					transform: rotate(180deg);
+								}
+							}
+				    }
+					}
+					&__cList{
+						&__i{
+							position: relative;
+							&__cImg{
+								margin-bottom: 0.5rem;
+								border-radius: 15px;
+    						overflow: hidden;
+    						&__link{
+    							display: table;
+    							&:link,
+							    &:visited,
+							    &:focus,
+							    &:active{
+							    	display: table;
+							    }
+							    &:hover{
+							    	display: table;
+							    	text-decoration: underline;
+							    }
+	    						img{
+	    							width: 100%;
+	    							height: auto;
+	    						}
+    						}
+							}
+							&__cDesc{
+								padding-left: 0.5rem;
+								padding-right: 0.5rem;
+								&__link{
+									display: block;
+									min-height: 128px;
+									height: auto;
+									&:link,
+							    &:visited,
+							    &:focus,
+							    &:active{
+							    	display: table;
+							    }
+									&:hover{
+										span.cIcndate{
+											text-decoration: none !important;											
+										}
+										span.cTcont{
+											text-decoration: underline;
+										}
+									}
+									&__cInfoDate{
+										display: flex;
+										align-items: center;
+										justify-content: flex-start;
+										span{
+											display: inline-block;
+											vertical-align: middle;
+											color: $theme-clr-paragraph;
+											&:first-child{
+												position: relative;
+												top: 3px;
+											}
+											svg{
+												vertical-align: middle;
+												width: 25px;
+												height: 25px;
+											}
+										}
+									}
+									&__cTitle{
+										color: #000;
+									}
+								}
+							}
 						}
 					}
 				}
