@@ -345,6 +345,7 @@ $min-headertop : 4.5rem;
 			justify-content: space-between;
 			flex-flow: wrap row;
 			&__cBreadCrumb{
+				margin-right: 0.5rem;
 				&__list{
 					display: flex;
 					align-items: center;
@@ -384,6 +385,7 @@ $min-headertop : 4.5rem;
 				}
 			}
 			&__cDTime{
+				margin-left: auto;
 				span{
 					color: $theme-clr-paragraph;
 				}
@@ -393,12 +395,15 @@ $min-headertop : 4.5rem;
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
+			flex-flow: wrap row;
 			padding-top: 1rem;
 			padding-bottom: 1rem;
 			padding-left: 0.5rem;
 			padding-right: 0.5rem;
+			row-gap: 0.5rem;
 			background-color: $theme-clr-secondary;
 			&__txt{
+				margin-right: 0.5rem;
 				&__cIcon{
 
 				}
@@ -410,7 +415,7 @@ $min-headertop : 4.5rem;
 				}
 			}
 			&__cLink{
-				margin-left: 0.5rem;
+				margin-left: auto;
 				a{
 					cursor: pointer;
 					display: inline-block;

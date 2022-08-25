@@ -522,7 +522,7 @@
 			</div>
 		</section>
 		<section class="c_wrapper">
-			<div class="c_wrapper__c box-redx mgb-1">
+			<div class="c_wrapper__c box-redx_wtout-p mgb-1">
 				<div class="c_wrapper__c__cdis">
 					<div class="c_wrapper__c__cdis__bgTitleWidth">
 						<div class="c_wrapper__c__cdis__bgTitleWidth__cBgTitle talign-c btn_sTogg">
@@ -559,7 +559,7 @@
 			</div>
 		</section>
 		<section class="c_wrapper">
-			<div class="c_wrapper__c box-redx mgb-1">
+			<div class="c_wrapper__c box-redx_wtout-p mgb-1">
 				<div class="c_wrapper__c__cdis">
 					<div class="c_wrapper__c__cdis__bgTitleWidth">
 						<div class="c_wrapper__c__cdis__bgTitleWidth__cBgTitle talign-c btn_sTogg">
