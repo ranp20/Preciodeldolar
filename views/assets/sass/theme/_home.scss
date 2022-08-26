@@ -1268,7 +1268,7 @@ $min-headertop : 4.5rem;
 		    }
 			}
 		}
-		&__cCtFilter{
+		&__cCtFilterExH{
 			padding-top: 1rem;
 			padding-bottom: 1rem;
 			padding-left: 0.5rem;
@@ -1290,6 +1290,112 @@ $min-headertop : 4.5rem;
 				}
 				@media(min-width: 991px){
 					flex: auto;
+				}
+			}
+			&__cFilter{
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				flex-flow: wrap row;
+				row-gap: 1rem;
+				width: 100%;
+				margin-bottom: 0.8rem;
+				flex: 0 0 100%;
+				@media (min-width: 991px){
+					width: auto;
+					flex: auto;
+				}
+				&__select{
+					width: 100%;
+					@media (min-width: 690px){
+						flex: 50%;
+						max-width: 50%;
+						padding-left: 10px;
+						padding-right: 10px;
+					}
+					@media (min-width: 991px){
+						min-width: 265px;
+						max-width: 275px;
+					}
+					select{
+						cursor: pointer;
+						display: block;
+				    width: 100%;
+				    height: 56px;
+				    padding: 6px 12px;
+				    font-size: 14px;
+				    line-height: 1.42857;
+				    color: #555;
+				    -webkit-appearance: none;
+				    background: url(../img/utilities/arrow-dow.svg?v1) no-repeat 95% 50%;
+				    background-color: #fafafa;
+				    border: 0 solid #ccc;
+				    border-radius: 2px;
+				    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+				    box-shadow: 0 2px 2px rgb(0 0 0 / 24%), 0 0 2px rgb(0 0 0 / 12%);
+						@media (min-width: 991px){
+							max-width: 275px;
+							width: 95%;
+						}
+						option{
+
+						}
+					}
+				}
+			}
+			&__cBtn{
+				flex: 100%;
+				@media(min-width: 991px){
+					flex: auto;
+				}
+				button, &__btn{
+					cursor: pointer;
+					display: inline-block;
+					text-align: center;
+					background-color: $theme-clr-btn-linkinit;
+					color: #fff;
+					border: none;
+					transition: all ease-in-out .2s;
+					padding: 0.55rem 1.65rem;
+					font-size: 1rem;
+					border-radius: 1.3rem;
+					&:link,
+			    &:visited,
+			    &:focus,
+			    &:active{
+			    	color: #fff;
+			    }
+			    &:hover{
+			    	background-color: darken($theme-clr-btn-linkinit, 10%);
+			    }
+				}
+			}
+		}
+		&__cCtFilterVarDoll{
+			padding-top: 1rem;
+			padding-bottom: 1rem;
+			padding-left: 0.5rem;
+			padding-right: 0.5rem;
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			flex-flow: wrap row;
+			@media (min-width: 768px){
+				justify-content: space-between;
+			}
+			&__cTxt{
+				flex: 100%;
+				margin-bottom: 0.8rem;
+				h1, h2, h3, h4, h5, h6{
+					font-size: 1.07rem;
+					font-weight: 800;
+					color: $theme-clr-paragraph-black;
+				}
+				@media(min-width: 991px){
+					flex: auto;
+					h1, h2, h3, h4, h5, h6{
+						font-size: 1.3rem;
+					}
 				}
 			}
 			&__cFilter{

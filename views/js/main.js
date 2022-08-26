@@ -11,8 +11,7 @@ $(() => {
 	var url = window.location.pathname;
 	var filename = url.substring(url.lastIndexOf('/')+1);
 	if(filename == ""){
-		$(".c_Htop__c__ch__cOptions__mDesk__m__i a").add($(".c_Htop__c__ch__cOptions__mMobile__m__i a")).removeClass("active");
-	}else if(filename == "cambio-online"){
+		// $(".c_Htop__c__ch__cOptions__mDesk__m__i a").add($(".c_Htop__c__ch__cOptions__mMobile__m__i a")).removeClass("active");
 		$(".c_Htop__c__ch__cOptions__mDesk__m__i a").eq(0).add($(".c_Htop__c__ch__cOptions__mMobile__m__i a").eq(0)).addClass("active");
 	}else{
 		$(".c_Htop__c__ch__cOptions__mDesk__m__i a").removeClass("active");

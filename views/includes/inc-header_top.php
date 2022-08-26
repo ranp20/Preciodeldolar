@@ -25,12 +25,12 @@
           </div>
 					<ul class="c_Htop__c__ch__cOptions__mMobile__m">
 						<li class="c_Htop__c__ch__cOptions__mMobile__m__i">
-							<a href="cambio-online" class="c_Htop__c__ch__cOptions__mMobile__m__link" title="Cambio Online">
+							<a href="/preciodeldolar" class="c_Htop__c__ch__cOptions__mMobile__m__link" title="Cambio Online">
 								<span>Cambiar Online</span>
 							</a>
 						</li>
 						<li class="c_Htop__c__ch__cOptions__mMobile__m__i">
-							<a href="javacript:void(0);" class="c_Htop__c__ch__cOptions__mMobile__m__link" title="Cambio Online">
+							<a href="analisis-del-dolar" class="c_Htop__c__ch__cOptions__mMobile__m__link" title="Cambio Online">
 								<span>Análisis del Dólar</span>
 							</a>
 						</li>
@@ -40,12 +40,12 @@
 							</a>
 						</li>
 						<li class="c_Htop__c__ch__cOptions__mMobile__m__i">
-							<a href="news" class="c_Htop__c__ch__cOptions__mMobile__m__link" title="Noticias">
+							<a href="noticias" class="c_Htop__c__ch__cOptions__mMobile__m__link" title="Noticias">
 								<span>Noticias</span>
 							</a>
 						</li>
 						<li class="c_Htop__c__ch__cOptions__mMobile__m__i">
-							<a href="javacript:void(0);" class="c_Htop__c__ch__cOptions__mMobile__m__link" title="Noticias">
+							<a href="nosotros" class="c_Htop__c__ch__cOptions__mMobile__m__link" title="Noticias">
 								<span>Nosotros</span>
 							</a>
 						</li>
@@ -91,12 +91,12 @@
 				<div class="c_Htop__c__ch__cOptions__mDesk">
 					<ul class="c_Htop__c__ch__cOptions__mDesk__m">
 						<li class="c_Htop__c__ch__cOptions__mDesk__m__i">
-							<a href="cambio-online" class="c_Htop__c__ch__cOptions__mDesk__m__link" title="Cambio Online">
+							<a href="/preciodeldolar" class="c_Htop__c__ch__cOptions__mDesk__m__link" title="Cambio Online">
 								<span>Cambiar Online</span>
 							</a>
 						</li>
 						<li class="c_Htop__c__ch__cOptions__mDesk__m__i">
-							<a href="javacript:void(0);" class="c_Htop__c__ch__cOptions__mDesk__m__link" title="Cambio Online">
+							<a href="analisis-del-dolar" class="c_Htop__c__ch__cOptions__mDesk__m__link" title="Cambio Online">
 								<span>Análisis del Dólar</span>
 							</a>
 						</li>
@@ -106,12 +106,12 @@
 							</a>
 						</li>
 						<li class="c_Htop__c__ch__cOptions__mDesk__m__i">
-							<a href="news" class="c_Htop__c__ch__cOptions__mDesk__m__link" title="Noticias">
+							<a href="noticias" class="c_Htop__c__ch__cOptions__mDesk__m__link" title="Noticias">
 								<span>Noticias</span>
 							</a>
 						</li>
 						<li class="c_Htop__c__ch__cOptions__mDesk__m__i">
-							<a href="javacript:void(0);" class="c_Htop__c__ch__cOptions__mDesk__m__link" title="Noticias">
+							<a href="nosotros" class="c_Htop__c__ch__cOptions__mDesk__m__link" title="Noticias">
 								<span>Nosotros</span>
 							</a>
 						</li>

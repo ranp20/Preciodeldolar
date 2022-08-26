@@ -589,7 +589,7 @@
 			</div>
 		</section>
 		<section class="c_wrapper">
-			<div class="c_wrapper__c box-redx mgb-1">
+			<div class="c_wrapper__c box-redx mgb-2">
 				<div class="c_wrapper__c__cGrpBtn">
 					<a href="/Preciodeldolar" class="c_wrapper__c__cGrpBtn__link" title="Comerzar cambio online">Comenzar cambio</a>
 				</div>

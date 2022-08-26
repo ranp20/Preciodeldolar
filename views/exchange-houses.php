@@ -49,12 +49,12 @@
 		</section>
 		<section class="c_wrapper">
 			<div class="c_wrapper__c box-redx_wtout-p">
-				<div class="c_wrapper__c__cCtFilter">
-					<div class="c_wrapper__c__cCtFilter__cTxt">
+				<div class="c_wrapper__c__cCtFilterExH">
+					<div class="c_wrapper__c__cCtFilterExH__cTxt">
 						<h2>Prueba buscar una casa de cambio</h2>
 					</div>
-					<div class="c_wrapper__c__cCtFilter__cFilter">
-						<div class="c_wrapper__c__cCtFilter__cFilter__select">
+					<div class="c_wrapper__c__cCtFilterExH__cFilter">
+						<div class="c_wrapper__c__cCtFilterExH__cFilter__select">
 							<select name="" class="sl-pronvicia" id="">
 								<option value="lima">LIMA</option>
 								<option value="cuzco">CUZCO</option>
@@ -73,7 +73,7 @@
 								<option value="trujillo">TRUJILLO</option>
 							</select>
 						</div>
-						<div class="c_wrapper__c__cCtFilter__cFilter__select">
+						<div class="c_wrapper__c__cCtFilterExH__cFilter__select">
 							<select name="" class="cl-distrito" id="">
 								<option value="cercado-de-lima">CERCADO-DE-LIMA</option>
 								<option value="ate">ATE</option>
@@ -103,8 +103,8 @@
 							</select>
 						</div>
 					</div>
-					<div class="c_wrapper__c__cCtFilter__cBtn">
-						<button type="button" class="c_wrapper__c__cCtFilter__cBtn__btn">BUSCAR</button>
+					<div class="c_wrapper__c__cCtFilterExH__cBtn">
+						<button type="button" class="c_wrapper__c__cCtFilterExH__cBtn__btn">BUSCAR</button>
 					</div>
 				</div>
 			</div>
@@ -183,13 +183,14 @@
 			</div>
 		</section>
 		<section class="c_wrapper">
-			<div class="c_wrapper__c box-redx mgb-1">
+			<div class="c_wrapper__c box-redx mgb-2">
 				<div class="c_wrapper__c__cGrpBtn">
 					<a href="/Preciodeldolar" class="c_wrapper__c__cGrpBtn__link" title="Comerzar cambio online">Comenzar cambio</a>
 				</div>
 			</div>
 		</section>
 	</main>
+	<?php require_once 'includes/inc-footer.php';?>
 	<script type="text/javascript" src="<?= $url;?>js/main.js"></script>
 </body>
 </html>

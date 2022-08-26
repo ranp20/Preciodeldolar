@@ -7,27 +7,27 @@
 				</div>
 				<ul class="cFootr__cT__c__cont__cM">
 					<li class="cFootr__cT__c__cont__cM__i">
-						<a href="javascript:void(0);" class="cFootr__cT__c__cont__cM__link" title="">
+						<a href="/preciodeldolar" class="cFootr__cT__c__cont__cM__link" title="">
 							<span>Cambiar Online</span>
 						</a>
 					</li>
 					<li class="cFootr__cT__c__cont__cM__i">
-						<a href="javascript:void(0);" class="cFootr__cT__c__cont__cM__link" title="">
+						<a href="casas-de-cambio" class="cFootr__cT__c__cont__cM__link" title="">
 							<span>Casas de cambio</span>
 						</a>
 					</li>
 					<li class="cFootr__cT__c__cont__cM__i">
-						<a href="javascript:void(0);" class="cFootr__cT__c__cont__cM__link" title="">
+						<a href="analisis-del-dolar" class="cFootr__cT__c__cont__cM__link" title="">
 							<span>Análisis del Dólar</span>
 						</a>
 					</li>
 					<li class="cFootr__cT__c__cont__cM__i">
-						<a href="javascript:void(0);" class="cFootr__cT__c__cont__cM__link" title="">
+						<a href="noticias" class="cFootr__cT__c__cont__cM__link" title="">
 							<span>Noticias</span>
 						</a>
 					</li>
 					<li class="cFootr__cT__c__cont__cM__i">
-						<a href="javascript:void(0);" class="cFootr__cT__c__cont__cM__link" title="">
+						<a href="nosotros" class="cFootr__cT__c__cont__cM__link" title="">
 							<span>Nosotros</span>
 						</a>
 					</li>

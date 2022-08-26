@@ -5,10 +5,10 @@ RewriteBase /preciodeldolar/
 
 ############PAGES USERS
 RewriteRule ^/?$ index.php
-RewriteRule cambio-online?$ views/cambio-online.php
-RewriteRule dollar-variation?$ views/dollar-variation.php
+RewriteRule analisis-del-dolar?$ views/dollar-analysis.php
 RewriteRule casas-de-cambio?$ views/exchange-houses.php
-RewriteRule news?$ views/news.php
+RewriteRule noticias?$ views/news.php
+RewriteRule nosotros?$ views/about-us.php
 
 ############PAGES ADMIN
 RewriteRule admin?$ admin/index.php
