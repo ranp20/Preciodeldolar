@@ -109,6 +109,86 @@
 				</div>
 			</div>
 		</section>
+		<section class="c_wrapper">
+			<div class="c_wrapper__c box-redx mgb-1">
+				<div class="c_wrapper__c__cListExchH">
+					<div class="c_wrapper__c__cListExchH__cTitle">
+						<h1>Casas de cambio en Perú</h1>
+					</div>
+					<div class="c_wrapper__c__cListExchH__cL">
+						<ul class="c_wrapper__c__cListExchH__cL__m">
+							<li class="c_wrapper__c__cListExchH__cL__m__i">
+								<a href="javascript:void(0);" class="c_wrapper__c__cListExchH__cL__m__link">
+									<span class="c_wrapper__c__cListExchH__cL__m__link__cImg">
+										<img src="<?= $url_admin;?>resources/images/exchange_houses/lima.jpg" alt="">
+									</span>
+									<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc">
+										<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc--name">LIMA >></span>
+									</span>
+								</a>
+							</li>
+							<li class="c_wrapper__c__cListExchH__cL__m__i">
+								<a href="javascript:void(0);" class="c_wrapper__c__cListExchH__cL__m__link">
+									<span class="c_wrapper__c__cListExchH__cL__m__link__cImg">
+										<img src="<?= $url_admin;?>resources/images/exchange_houses/cuzco.jpg" alt="">
+									</span>
+									<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc">
+										<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc--name">CUZCO >></span>
+									</span>
+								</a>
+							</li>
+							<li class="c_wrapper__c__cListExchH__cL__m__i">
+								<a href="javascript:void(0);" class="c_wrapper__c__cListExchH__cL__m__link">
+									<span class="c_wrapper__c__cListExchH__cL__m__link__cImg">
+										<img src="<?= $url_admin;?>resources/images/exchange_houses/piura.jpg" alt="">
+									</span>
+									<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc">
+										<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc--name">PIURA >></span>
+									</span>
+								</a>
+							</li>
+							<li class="c_wrapper__c__cListExchH__cL__m__i">
+								<a href="javascript:void(0);" class="c_wrapper__c__cListExchH__cL__m__link">
+									<span class="c_wrapper__c__cListExchH__cL__m__link__cImg">
+										<img src="<?= $url_admin;?>resources/images/exchange_houses/lima.jpg" alt="">
+									</span>
+									<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc">
+										<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc--name">LIMA >></span>
+									</span>
+								</a>
+							</li>
+							<li class="c_wrapper__c__cListExchH__cL__m__i">
+								<a href="javascript:void(0);" class="c_wrapper__c__cListExchH__cL__m__link">
+									<span class="c_wrapper__c__cListExchH__cL__m__link__cImg">
+										<img src="<?= $url_admin;?>resources/images/exchange_houses/cuzco.jpg" alt="">
+									</span>
+									<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc">
+										<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc--name">CUZCO >></span>
+									</span>
+								</a>
+							</li>
+							<li class="c_wrapper__c__cListExchH__cL__m__i">
+								<a href="javascript:void(0);" class="c_wrapper__c__cListExchH__cL__m__link">
+									<span class="c_wrapper__c__cListExchH__cL__m__link__cImg">
+										<img src="<?= $url_admin;?>resources/images/exchange_houses/piura.jpg" alt="">
+									</span>
+									<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc">
+										<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc--name">PIURA >></span>
+									</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="c_wrapper">
+			<div class="c_wrapper__c box-redx mgb-1">
+				<div class="c_wrapper__c__cGrpBtn">
+					<a href="/Preciodeldolar" class="c_wrapper__c__cGrpBtn__link" title="Comerzar cambio online">Comenzar cambio</a>
+				</div>
+			</div>
+		</section>
 	</main>
 	<script type="text/javascript" src="<?= $url;?>js/main.js"></script>
 </body>
