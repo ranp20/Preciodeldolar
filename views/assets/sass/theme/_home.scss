@@ -1,7 +1,20 @@
 $min-headertop : 4.5rem;
 /* TRANSITION - HEADERTOP FIXED */
-body.down .c_wrapper__c__cHFix.fixedTogg {
-  transform: translateY(0);
+#htop_exchangeFixed{
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+	user-select: none;
+	&.fixedTogg{
+		display: block;
+		opacity: 1;
+		visibility: visible;
+		pointer-events: auto;
+		user-select: auto;
+		// transform: translateY(-100%);
+    transition: 0.2s transform cubic-bezier(.3,.73,.3,.74);
+	}
 }
 /* THEME - HEADER TOP */
 .c_Htop{
@@ -355,30 +368,28 @@ body.down .c_wrapper__c__cHFix.fixedTogg {
 .c_wrapper{
 	&__c{
 		&__cHFix{
-			display: none;
-			opacity: 0;
-			visibility: hidden;
-			pointer-events: none;
-			user-select: none;
-			&.fixedTogg{
-				display: block;
-				opacity: 1;
-				visibility: visible;
-				pointer-events: auto;
-				user-select: auto;
-				// transform: translateY(-100%);
-		    transition: 0.2s transform cubic-bezier(.3,.73,.3,.74);
-			}
 			&__cFx{
 				position: fixed;
 		    top: 0;
 		    left: 0;
 		    z-index: 99;
 		    width: 100%;
-		    min-height: calc($min-headertop + 0.85rem);
+		    min-height: 4.438rem;
+		    min-height: calc($min-headertop - 0.5rem);
 		    background-color: #fff;
 		    box-shadow: 0 3px 3px rgb(0 0 0 / 15%);
 				&__ct{
+					padding-top: 0.5rem;
+					padding-bottom: 0.5rem;
+					@media (min-width: 991px){
+						padding-top: 0;
+						padding-bottom: 0;
+					}
+					display: block;
+					opacity: 1;
+					visibility: visible;
+					pointer-events: auto;
+					user-select: auto;
 					&__c{
 						display: flex;
 						flex-flow: row wrap;

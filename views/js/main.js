@@ -9,7 +9,7 @@ $(() => {
 	cMobile_m.addEventListener("click", (e) => {if(e.target.matches('a')){cTopBar_m.classList.remove('show');}else{return false;}});
 	// ------------ FIJAR EL HEADERTOP
 	let header = document.querySelector('#htop_exchange'), header_offsetTop = header.offsetTop, headerFixed = document.querySelector("#htop_exchangeFixed");
-	$(window).on("scroll", function() {
+	$(window).on("scroll", function(){
 	  var fromTop = $(window).scrollTop();
 	  if(fromTop > header_offsetTop){
 	  	header.classList.add("reduxheight");

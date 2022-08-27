@@ -7,6 +7,7 @@
 <body>
 	<?php require_once 'includes/inc-header_top.php';?>
 	<main>
+		<?php require_once 'includes/inc-header_top-fixed.php';?>
 		<section class="c_wrapper">
 			<div class="c_wrapper__c box-redx">
 				<div class="c_wrapper__c__cCurrPage">
