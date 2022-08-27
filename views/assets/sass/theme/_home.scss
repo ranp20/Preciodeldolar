@@ -1,6 +1,7 @@
 $min-headertop : 4.5rem;
 /* THEME - HEADER TOP */
 .c_Htop{
+	position: relative;
 	&__c{
 		background-color: $theme-clr-primary;
 		padding-top: 0.5rem;
@@ -8,6 +9,18 @@ $min-headertop : 4.5rem;
 		@media (min-width: 991px){
 			padding-top: 0;
 			padding-bottom: 0;
+		}
+		display: block;
+		opacity: 1;
+		visibility: visible;
+		pointer-events: auto;
+		user-select: auto;
+		&.reduxheight{
+			display: none;
+			opacity: 0;
+			visibility: hidden;
+			pointer-events: none;
+			user-select: none;	
 		}
 		&__ch{
 			display: flex;
@@ -337,6 +350,357 @@ $min-headertop : 4.5rem;
 /* THEME - MAIN */
 .c_wrapper{
 	&__c{
+		&__cHFix{
+			display: none;
+			opacity: 0;
+			visibility: hidden;
+			pointer-events: none;
+			user-select: none;
+			&.togg_reduxheight{
+				display: block;
+				opacity: 1;
+				visibility: visible;
+				pointer-events: auto;
+				user-select: auto;
+			}
+			&__cFx{
+				position: fixed;
+		    top: 0;
+		    left: 0;
+		    z-index: 99;
+		    width: 100%;
+		    min-height: calc($min-headertop + 0.85rem);
+		    background-color: #fff;
+		    box-shadow: 0 3px 3px rgb(0 0 0 / 15%);
+				&__ct{
+					&__c{
+						display: flex;
+						flex-flow: row wrap;
+						align-items: center;
+						justify-content: space-between;
+						@media (min-width: 991px){
+							justify-content: flex-start;
+						}
+						&__cLogo{
+							max-width: 85px;
+							width: auto;
+							height: auto;
+							@media (min-width: 991px){
+								max-width: 115px;
+							}
+							&__c{
+								display: flex;
+								align-items: center;
+								justify-content: flex-start;
+							}
+						}
+						&__cBtnMob{
+							margin-left: auto;
+							pointer-events: auto;
+							user-select: auto;
+							opacity: 1;
+							visibility: visible;
+							@media (min-width: 991px){
+								display: none !important;
+								pointer-events: none;
+								user-select: none;
+								opacity: 0;
+								visibility: hidden;
+							}
+							button{
+								@include btn_hamburguer(27px, 3px, #000000, 0.5rem);
+							}
+							em{
+								display: block;
+						    font-size: .65rem;
+						    font-style: normal;
+						    text-align: center;
+						    color: #000000;
+							}
+						}
+						&__cOptions{
+							position: fixed;
+							width: 100%;
+							top: 0;
+							left: 0;
+							min-height: 100vh;
+							height: 100%;
+							background-color: rgba(0,0,0,.4);
+							z-index: 99999;
+							transform: translateX(-200%);
+							transition: .5s ease-in-out;
+							pointer-events: none;
+							overscroll-behavior-y: contain;
+							&.show{
+								transform: translateX(0);
+								pointer-events: auto;
+							}
+							@media (min-width: 991px){
+								display: block;
+								position: relative;
+								width: auto;
+								min-height: unset;
+								height: auto;
+								z-index: 1;
+								background-color: transparent;
+								line-height: calc($min-headertop + 0.85rem);
+								margin-left: auto;
+						    right: 0;
+						    text-align: right;
+						    pointer-events: auto;
+						    transform: translateX(0);
+								display: flex;
+								align-items: center;
+								justify-content: space-between;
+								flex: 0 0 87%;
+							}
+							&__mMobile{
+								position: relative;
+								display: flex;
+						    align-items: flex-start;
+						    justify-content: flex-start;
+						    padding: 0;
+						    margin: 0;
+						    background-color: $theme-clr-primary;
+						    max-width: 285px;
+						    min-height: 100vh;
+						    width: 90%;
+						    height: 100%;
+						    right: 0;
+						    margin-right: auto;
+						    flex-flow: column nowrap;
+						    padding-top: 0;
+						    text-align: left;
+								overscroll-behavior-y: contain;
+								pointer-events: auto;
+						    visibility: visible;
+						    opacity: 1;
+						    user-select: auto;
+								@media (min-width: 991px){
+							    display: none;
+							    pointer-events: none;
+							    visibility: hidden;
+							    opacity: 0;
+							    user-select: none;
+								}
+								#btn-sidebarl-close{
+									position: absolute;
+							    margin-left: 0;
+							    top: 0;
+							    right: -40px;
+							    left: auto;
+							    width: 40px;
+							    height: 40px;
+							    background-color: #000;
+							    display: flex;
+							    align-items: center;
+							    justify-content: center;
+							    text-align: center;
+								}
+								#btn-sidebarl-close--btn{
+									cursor: pointer;
+									position: initial;
+							    margin-left: 0;
+							    top: 10px;
+							    left: 295px;
+							    background-color: #fff;
+							    animation-name: moveIconBurger;
+							    animation-duration: .3s;
+							    animation-timing-function: ease-in-out;
+							    color: #fff;
+							    font-size: 2rem;
+							    display: inline-block;
+							    transition: .3s;
+							    width: 20px;
+							    height: 20px;
+							    background: linear-gradient(45deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 43%, #fff 45%, #fff 55%, rgba(0, 0, 0, 0) 57%, rgba(0, 0, 0, 0) 100%),linear-gradient(135deg, transparent 0%, transparent 43%, #fff 45%, #fff 55%, transparent 57%, transparent 100%);
+							    border: none;
+							    padding: .5rem;
+							    z-index: 99999999;
+								}
+								&__m{
+									display: flex;
+									flex-flow: column nowrap;
+									align-items: flex-start;
+									justify-content: flex-start;
+									width: 100%;
+									margin-bottom: 1rem;
+									@media (min-width: 991px){
+										width: auto;
+										flex-flow: row wrap;
+										align-items: center;
+										margin-bottom: 0;
+									}
+									&__i{
+										flex: auto;
+										width: 100%;
+										@media (min-width: 991px){
+											width: auto;
+										}
+									}
+									&__link{
+										display: block;
+										color: $theme-clr-header-fix-links;
+										padding: 1.2rem 1rem;
+										&:link,
+								    &:visited,
+								    &:focus,
+								    &:active{
+								    	color: $theme-clr-header-fix-links;
+								    }
+										span{
+											color: $theme-clr-header-fix-links;
+											font-weight: 500;
+										}
+								    &:hover{
+								    	box-shadow: 4px 0 0 0 inset $theme-clr-header-fix-links;
+								    	background-color: darken($theme-clr-header-fix-bg-links, 10%);
+								    }
+										&.active{
+											box-shadow: 4px 0 0 0 inset $theme-clr-header-fix-links;
+											background-color: darken($theme-clr-header-fix-bg-links, 10%);
+										}
+										@media (min-width: 991px){
+											padding: 0 0.8rem;
+											&:hover{
+									    	box-shadow: unset;
+									    }
+											&:active{
+												box-shadow: unset;
+											}
+										}
+									}
+									/*
+									&.l_m-social{
+										flex-flow: row wrap;
+										@media (min-width: 991px){
+											flex-flow: row wrap;
+										}
+										li{
+											width: auto;
+											a{
+												padding: 0 .2rem;
+												color: $theme-clr-header-links;
+												&:hover{
+													box-shadow: unset;
+													background-color: $theme-clr-primary;
+												}
+												span{
+													display: table;
+													margin: 0 auto;
+													svg{
+														fill: $theme-clr-header-links;
+													}
+												}
+											}
+										}
+									}
+									*/
+								}
+							}
+							&__mDesk{
+								position: relative;
+								display: flex;
+						    align-items: flex-start;
+						    justify-content: flex-start;
+						    padding: 0;
+						    margin: 0;
+						    background-color: #fff;
+						    max-width: 285px;
+						    min-height: 100vh;
+						    width: 90%;
+						    height: 100%;
+						    right: 0;
+						    margin-right: auto;
+						    flex-flow: column nowrap;
+						    padding-top: 0;
+						    text-align: left;
+								overscroll-behavior-y: contain;
+								@media (min-width: 991px){
+									background-color: transparent;
+							    align-items: center;
+							    justify-content: space-between;
+							    flex: 0 0 100%;
+							    min-height: unset;
+							    max-width: unset;
+							    height: auto;
+							    width: auto;
+							    right: auto;
+							    margin-right: 0;
+							    flex-flow: row wrap;
+								}
+								&__m{
+									display: flex;
+									flex-flow: column nowrap;
+									align-items: flex-start;
+									justify-content: flex-start;
+									width: 100%;
+									margin-bottom: 1rem;
+									@media (min-width: 991px){
+										width: auto;
+										flex-flow: row wrap;
+										align-items: center;
+										margin-bottom: 0;
+									}
+									&__i{
+										flex: auto;
+									}
+									&__link{
+										display: block;
+										color: $theme-clr-header-fix-links;
+										padding: 1.2rem 1rem;
+										&:link,
+								    &:visited,
+								    &:focus,
+								    &:active{
+								    	color: $theme-clr-header-fix-links;
+								    }
+										span{
+											color: $theme-clr-header-fix-links;
+											font-weight: 500;
+										}
+										@media (min-width: 991px){
+											padding: 0 0.8rem;
+									    &:hover{
+									    	box-shadow: 0 -3px 0 0 inset $theme-clr-header-fix-links;
+									    	background-color: darken($theme-clr-header-fix-bg-links, 10%);
+									    }
+											&.active{
+												box-shadow: 0 -3px 0 0 inset $theme-clr-header-fix-links;
+												background-color: darken($theme-clr-header-fix-bg-links, 10%);
+											}
+										}
+									}
+									&.l_m-social{
+										flex-flow: row wrap;
+										@media (min-width: 991px){
+											flex-flow: row wrap;
+										}
+										li{
+											a{
+												padding: 0 .2rem;
+												color: $theme-clr-header-links;
+												&:hover{
+													box-shadow: unset;
+													background-color: $theme-clr-primary;
+												}
+												span{
+													display: table;
+													margin: 0 auto;
+													svg{
+														fill: $theme-clr-header-links;
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
 		&__cCurrPage{
 			padding-top: 0.5rem;
 			padding-bottom: 0.5rem;

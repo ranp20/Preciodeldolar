@@ -1,5 +1,5 @@
 <header class="c_Htop" id="header_top">
-	<div class="c_Htop__c box-redx">
+	<div class="c_Htop__c box-redx" id="htop_exchange">
 		<div class="c_Htop__c__ch">
 			<div class="c_Htop__c__ch__cLogo">
 				<a href="./" class="c_Htop__c__ch__cLogo__c" title="Ir al inicio">
