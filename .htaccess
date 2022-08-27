@@ -3,14 +3,14 @@ RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 RewriteBase /preciodeldolar/
 
-############PAGES USERS
+############ PAGES USERS
 RewriteRule ^/?$ index.php
 RewriteRule analisis-del-dolar?$ views/dollar-analysis.php
 RewriteRule casas-de-cambio?$ views/exchange-houses.php
 RewriteRule noticias?$ views/news.php
 RewriteRule nosotros?$ views/about-us.php
 
-############PAGES ADMIN
+############ PAGES ADMIN
 RewriteRule admin?$ admin/index.php
 RewriteRule dashboard?$ admin/views/dashboard.php
 RewriteRule logout-adm?$ admin/controllers/prcss_logout-adm.php

@@ -1241,6 +1241,45 @@ $min-headertop : 4.5rem;
 					}
 				}
 			}
+			/* CONTENIDO - SOBRE NOSOTROS */
+			&__cAbt-us{
+				&__cTitle{
+					text-align: center;
+					max-width: 800px;
+					width: 100%;
+			    margin-left: auto;
+			    margin-right: auto;
+			    padding-top: 2rem;
+			    @media (min-width: 690px){
+						width: 95%;
+			    }
+					h2{
+						font-size: 1.4rem;
+					}
+				}
+				&__cC{
+					&__cTitle{
+						&--title{
+							background-image: url(../img/utilities/pretitle.svg);
+					    background-repeat: no-repeat;
+					    background-position: center bottom;
+					    background-size: 180px 5px;
+					    padding-top: 50px;
+					    padding-bottom: 1rem !important;
+					    color: var(--color-1);
+					    text-align: center;
+					    font-size: 1.4rem;
+					    font-weight: 700;
+						}
+					}
+					&__cCont{
+						padding: 0.5rem;
+						@media (min-width: 768px){
+							padding: 1rem;
+						}
+					}
+				}
+			}
 		}
 		&__cGrpBtn{
 			display: flex;
