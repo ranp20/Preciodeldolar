@@ -11,13 +11,13 @@
 	<main>
 		<section class="c_wrapper">
 			<div class="c_wrapper__c">
-				<div class="c_wrapper__c__cHFix">
+				<div class="c_wrapper__c__cHFix" id="htop_exchangeFixed">
 					<div class="c_wrapper__c__cHFix__cFx">
 						<div class="c_wrapper__c__cHFix__cFx__ct box-redx">
 							<div class="c_wrapper__c__cHFix__cFx__ct__c">
 								<div class="c_wrapper__c__cHFix__cFx__ct__c__cLogo">
 									<a href="./" class="c_wrapper__c__cHFix__cFx__ct__c__cLogo__c" title="Ir al inicio">
-										<img src="<?= $url;?>assets/img/logos/logo-negro.svg" alt="icon_logo_preciodeldolar" width="100" height="100">
+										<img src="<?= $url;?>assets/img/logos/logo-amarillo.svg" alt="icon_logo_preciodeldolar-fixed" width="100" height="100">
 									</a>
 								</div>
 								<div class="c_wrapper__c__cHFix__cFx__ct__c__cBtnMob">

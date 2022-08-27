@@ -7,23 +7,18 @@ $(() => {
 	btnClose_mobile.addEventListener("click", (e) => {cTopBar_m.classList.remove("show");});
 	// ------------ CERRAR EL SIDEBAR CUANDO SE SELECCIONA UN ELEMENTO
 	cMobile_m.addEventListener("click", (e) => {if(e.target.matches('a')){cTopBar_m.classList.remove('show');}else{return false;}});
-	
-	// ------------ SCROLLTOP - HEADERTOP
-	let headerTop = document.querySelector("#htop_exchange");
-	let doc_scrollTop = document.documentElement.scrollTop;
-	let ipage = document.querySelector('#fromHereFixedHeadTop');
-	let ipage_offsetTop = ipage.offsetTop;
-
-	if(ipage_offsetTop - 72 < doc_scrollTop){
-		console.log('GAAAAA');
-		headerTop.classList.add("reduxheight");
-		ipage.classList.add("togg_reduxheight");
-	}else{
-		headerTop.classList.remove("reduxheight");
-		ipage.classList.remove("togg_reduxheight");
-	}
-
-
+	// ------------ FIJAR EL HEADERTOP
+	let header = document.querySelector('#htop_exchange'), header_offsetTop = header.offsetTop, headerFixed = document.querySelector("#htop_exchangeFixed");
+	$(window).on("scroll", function() {
+	  var fromTop = $(window).scrollTop();
+	  if(fromTop > header_offsetTop){
+	  	header.classList.add("reduxheight");
+	  	headerFixed.classList.add("fixedTogg");
+	  }else{
+	  	headerFixed.classList.remove("fixedTogg");
+	  	header.classList.remove("reduxheight");
+	  }
+	});
 	// ------------ ITEM SELECCIONADO DEL MENÚ MOBILE
 	var url = window.location.pathname;
 	var filename = url.substring(url.lastIndexOf('/')+1);

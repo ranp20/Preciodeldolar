@@ -1,4 +1,8 @@
 $min-headertop : 4.5rem;
+/* TRANSITION - HEADERTOP FIXED */
+body.down .c_wrapper__c__cHFix.fixedTogg {
+  transform: translateY(0);
+}
 /* THEME - HEADER TOP */
 .c_Htop{
 	position: relative;
@@ -20,7 +24,7 @@ $min-headertop : 4.5rem;
 			opacity: 0;
 			visibility: hidden;
 			pointer-events: none;
-			user-select: none;	
+			user-select: none;
 		}
 		&__ch{
 			display: flex;
@@ -356,12 +360,14 @@ $min-headertop : 4.5rem;
 			visibility: hidden;
 			pointer-events: none;
 			user-select: none;
-			&.togg_reduxheight{
+			&.fixedTogg{
 				display: block;
 				opacity: 1;
 				visibility: visible;
 				pointer-events: auto;
 				user-select: auto;
+				// transform: translateY(-100%);
+		    transition: 0.2s transform cubic-bezier(.3,.73,.3,.74);
 			}
 			&__cFx{
 				position: fixed;
