@@ -113,13 +113,35 @@
 		<section class="c_wrapper">
 			<div class="c_wrapper__c box-redx mgb-1">
 				<div class="c_wrapper__c__cListExchH">
+					<?php 
+						if(isset($_GET) && count($_GET) > 0){
+							if(isset($_GET['region']) && $_GET['region'] != ""){
+					?>
+						<div class="c_wrapper__c__cListExchH__cTitle">
+							<h1>Casas de cambio en "<?= ucfirst(str_replace("-"," ",$_GET['region']));?>"</h1>
+						</div>
+					<?php  
+								if(isset($_GET['region']) && $_GET['region'] != "" && isset($_GET['distrito']) && $_GET['distrito'] != ""){
+					?>
+							<div class="c_wrapper__c__cListExchH__cTitle">
+								<h1>Casas de cambio en "<?= ucfirst(str_replace("-"," ",$_GET['distrito']));?>"</h1>
+							</div>
+					<?php
+								}else{
+									// echo "No hay valores de distrito";	
+								}
+							}else{
+								// echo "No hay valores de región";
+							}
+						}else{
+					?>				
 					<div class="c_wrapper__c__cListExchH__cTitle">
 						<h1>Casas de cambio en Perú</h1>
 					</div>
 					<div class="c_wrapper__c__cListExchH__cL">
 						<ul class="c_wrapper__c__cListExchH__cL__m">
 							<li class="c_wrapper__c__cListExchH__cL__m__i">
-								<a href="javascript:void(0);" class="c_wrapper__c__cListExchH__cL__m__link">
+								<a href="casas-de-cambio/lima" class="c_wrapper__c__cListExchH__cL__m__link">
 									<span class="c_wrapper__c__cListExchH__cL__m__link__cImg">
 										<img src="<?= $url_admin;?>resources/images/exchange_houses/lima.jpg" alt="">
 									</span>
@@ -129,7 +151,7 @@
 								</a>
 							</li>
 							<li class="c_wrapper__c__cListExchH__cL__m__i">
-								<a href="javascript:void(0);" class="c_wrapper__c__cListExchH__cL__m__link">
+								<a href="casas-de-cambio/cuzco" class="c_wrapper__c__cListExchH__cL__m__link">
 									<span class="c_wrapper__c__cListExchH__cL__m__link__cImg">
 										<img src="<?= $url_admin;?>resources/images/exchange_houses/cuzco.jpg" alt="">
 									</span>
@@ -139,7 +161,7 @@
 								</a>
 							</li>
 							<li class="c_wrapper__c__cListExchH__cL__m__i">
-								<a href="javascript:void(0);" class="c_wrapper__c__cListExchH__cL__m__link">
+								<a href="casas-de-cambio/piura" class="c_wrapper__c__cListExchH__cL__m__link">
 									<span class="c_wrapper__c__cListExchH__cL__m__link__cImg">
 										<img src="<?= $url_admin;?>resources/images/exchange_houses/piura.jpg" alt="">
 									</span>
@@ -149,7 +171,7 @@
 								</a>
 							</li>
 							<li class="c_wrapper__c__cListExchH__cL__m__i">
-								<a href="javascript:void(0);" class="c_wrapper__c__cListExchH__cL__m__link">
+								<a href="casas-de-cambio/lima" class="c_wrapper__c__cListExchH__cL__m__link">
 									<span class="c_wrapper__c__cListExchH__cL__m__link__cImg">
 										<img src="<?= $url_admin;?>resources/images/exchange_houses/lima.jpg" alt="">
 									</span>
@@ -159,7 +181,7 @@
 								</a>
 							</li>
 							<li class="c_wrapper__c__cListExchH__cL__m__i">
-								<a href="javascript:void(0);" class="c_wrapper__c__cListExchH__cL__m__link">
+								<a href="casas-de-cambio/cuzco" class="c_wrapper__c__cListExchH__cL__m__link">
 									<span class="c_wrapper__c__cListExchH__cL__m__link__cImg">
 										<img src="<?= $url_admin;?>resources/images/exchange_houses/cuzco.jpg" alt="">
 									</span>
@@ -169,7 +191,7 @@
 								</a>
 							</li>
 							<li class="c_wrapper__c__cListExchH__cL__m__i">
-								<a href="javascript:void(0);" class="c_wrapper__c__cListExchH__cL__m__link">
+								<a href="casas-de-cambio/piura" class="c_wrapper__c__cListExchH__cL__m__link">
 									<span class="c_wrapper__c__cListExchH__cL__m__link__cImg">
 										<img src="<?= $url_admin;?>resources/images/exchange_houses/piura.jpg" alt="">
 									</span>
@@ -180,6 +202,9 @@
 							</li>
 						</ul>
 					</div>
+					<?php
+						}
+					?>
 				</div>
 			</div>
 		</section>

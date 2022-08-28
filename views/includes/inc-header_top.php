@@ -30,22 +30,22 @@
 							</a>
 						</li>
 						<li class="c_Htop__c__ch__cOptions__mMobile__m__i">
-							<a href="analisis-del-dolar" class="c_Htop__c__ch__cOptions__mMobile__m__link" title="Cambio Online">
+							<a href="./analisis-del-dolar" class="c_Htop__c__ch__cOptions__mMobile__m__link" title="Cambio Online">
 								<span>Análisis del Dólar</span>
 							</a>
 						</li>
 						<li class="c_Htop__c__ch__cOptions__mMobile__m__i">
-							<a href="casas-de-cambio" class="c_Htop__c__ch__cOptions__mMobile__m__link" title="Variación del Dólar">
+							<a href="./casas-de-cambio" class="c_Htop__c__ch__cOptions__mMobile__m__link" title="Variación del Dólar">
 								<span>Casas de Cambio</span>
 							</a>
 						</li>
 						<li class="c_Htop__c__ch__cOptions__mMobile__m__i">
-							<a href="noticias" class="c_Htop__c__ch__cOptions__mMobile__m__link" title="Noticias">
+							<a href="./noticias" class="c_Htop__c__ch__cOptions__mMobile__m__link" title="Noticias">
 								<span>Noticias</span>
 							</a>
 						</li>
 						<li class="c_Htop__c__ch__cOptions__mMobile__m__i">
-							<a href="nosotros" class="c_Htop__c__ch__cOptions__mMobile__m__link" title="Noticias">
+							<a href="./nosotros" class="c_Htop__c__ch__cOptions__mMobile__m__link" title="Noticias">
 								<span>Nosotros</span>
 							</a>
 						</li>
@@ -96,22 +96,22 @@
 							</a>
 						</li>
 						<li class="c_Htop__c__ch__cOptions__mDesk__m__i">
-							<a href="analisis-del-dolar" class="c_Htop__c__ch__cOptions__mDesk__m__link" title="Cambio Online">
+							<a href="./analisis-del-dolar" class="c_Htop__c__ch__cOptions__mDesk__m__link" title="Cambio Online">
 								<span>Análisis del Dólar</span>
 							</a>
 						</li>
 						<li class="c_Htop__c__ch__cOptions__mDesk__m__i">
-							<a href="casas-de-cambio" class="c_Htop__c__ch__cOptions__mDesk__m__link" title="Variación del Dólar">
+							<a href="./casas-de-cambio" class="c_Htop__c__ch__cOptions__mDesk__m__link" title="Variación del Dólar">
 								<span>Casas de Cambio</span>
 							</a>
 						</li>
 						<li class="c_Htop__c__ch__cOptions__mDesk__m__i">
-							<a href="noticias" class="c_Htop__c__ch__cOptions__mDesk__m__link" title="Noticias">
+							<a href="./noticias" class="c_Htop__c__ch__cOptions__mDesk__m__link" title="Noticias">
 								<span>Noticias</span>
 							</a>
 						</li>
 						<li class="c_Htop__c__ch__cOptions__mDesk__m__i">
-							<a href="nosotros" class="c_Htop__c__ch__cOptions__mDesk__m__link" title="Noticias">
+							<a href="./nosotros" class="c_Htop__c__ch__cOptions__mDesk__m__link" title="Noticias">
 								<span>Nosotros</span>
 							</a>
 						</li>
