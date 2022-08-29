@@ -444,6 +444,22 @@
 		<section class="c_wrapper">
 			<div class="c_wrapper__c box-redx mgb-1">
 				<div class="c_wrapper__c__cdis">
+					<div class="c_wrapper__c__cdis__cVartDollar">
+						<div class="c_wrapper__c__cdis__cVartDollar__cTitle" style="margin-bottom: 1rem;">
+							<h2>Variación del precio del dólar durante el día</h2>
+							<p>Análisis sobre la variación del tipo de cambio durante el día.</p>
+						</div>
+						<div class="c_wrapper__c__cdis__cVartDollar__c">
+							<div class="c_wrapper__c__cdis__cVartDollar__c__cCGraphic" style="height: 400px;background-color: red;"></div>
+							<div class="c_wrapper__c__cdis__cVartDollar__c__cCnvt" style="height: 125px;background-color: #05040C;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="c_wrapper">
+			<div class="c_wrapper__c box-redx mgb-1">
+				<div class="c_wrapper__c__cdis">
 					<div class="c_wrapper__c__cdis__cNewSlider">
 						<div class="c_wrapper__c__cdis__cNewSlider__cTitle">
 							<h2>Noticias sobre el precio del dólar >></h2>
