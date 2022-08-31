@@ -43,7 +43,7 @@
 						</div>
 					</div>
 					<div class="c_wrapper__c__cTxtTitle__cLink">
-						<a href="javascript:void(0);" title="Cambiar online">CAMBIAR ONLINE</a>
+						<a href="/Preciodeldolar" title="Cambiar online">CAMBIAR ONLINE</a>
 					</div>
 				</div>
 			</div>

@@ -442,16 +442,42 @@
 			</div>
 		</section>
 		<section class="c_wrapper">
-			<div class="c_wrapper__c box-redx mgb-1">
+			<div class="c_wrapper__c box-redx mgb-2">
 				<div class="c_wrapper__c__cdis">
 					<div class="c_wrapper__c__cdis__cVartDollar">
-						<div class="c_wrapper__c__cdis__cVartDollar__cTitle" style="margin-bottom: 1rem;">
+						<div class="c_wrapper__c__cdis__cVartDollar__cTitle">
 							<h2>Variación del precio del dólar durante el día</h2>
 							<p>Análisis sobre la variación del tipo de cambio durante el día.</p>
 						</div>
 						<div class="c_wrapper__c__cdis__cVartDollar__c">
-							<div class="c_wrapper__c__cdis__cVartDollar__c__cCGraphic" style="height: 400px;background-color: red;"></div>
-							<div class="c_wrapper__c__cdis__cVartDollar__c__cCnvt" style="height: 125px;background-color: #05040C;"></div>
+							<div class="c_wrapper__c__cdis__cVartDollar__c__cCGraphic"></div>
+							<div class="c_wrapper__c__cdis__cVartDollar__c__cCnvt">
+								<div class="c_wrapper__c__cdis__cVartDollar__c__cCnvt__ct box-redx">
+									<div class="c_wrapper__c__cdis__cVartDollar__c__cCnvt__ct__mL">
+										<div class="c_wrapper__c__cdis__cVartDollar__c__cCnvt__ct__mL__i">
+											<p>Alertar cuando el precio del dólar este por <strong>encima</strong> de:</p>
+											<div class="c_wrapper__c__cdis__cVartDollar__c__cCnvt__ct__mL__i__cIptFk">
+												<span class="c_wrapper__c__cdis__cVartDollar__c__cCnvt__ct__mL__i__cIptFk">S/.</span>
+												<input type="text" class="c_wrapper__c__cdis__cVartDollar__c__cCnvt__ct__mL__i__cIptFk__ipt" value="3.865">
+											</div>
+										</div>
+										<div class="c_wrapper__c__cdis__cVartDollar__c__cCnvt__ct__mL__i">
+											<p>Alertar cuando el precio del dólar este por <strong>debajo</strong> de:</p>
+											<div class="c_wrapper__c__cdis__cVartDollar__c__cCnvt__ct__mL__i__cIptFk">
+												<span class="c_wrapper__c__cdis__cVartDollar__c__cCnvt__ct__mL__i__cIptFk">S/.</span>
+												<input type="text" class="c_wrapper__c__cdis__cVartDollar__c__cCnvt__ct__mL__i__cIptFk__ipt" value="3.486">
+											</div>
+										</div>
+										<div class="c_wrapper__c__cdis__cVartDollar__c__cCnvt__ct__mL__i">
+											<p>Para obtener la alerta, inserta tu Email</p>
+											<form action="" method="POST">
+												<input type="email" placeholder="E-mail" class="c_wrapper__c__cdis__cVartDollar__c__cCnvt__ct__mL__i__itpExt" required>
+												<button type="submit" class="c_wrapper__c__cdis__cVartDollar__c__cCnvt__ct__mL__i__btnEmail">Crear alerta</button>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

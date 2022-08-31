@@ -1661,6 +1661,132 @@ $min-headertop : 4.5rem;
 					}
 				}
 			}
+			/* CONTENIDO - VARIACIÓN DEL DOLAR */
+			&__cVartDollar{
+				&__cTitle{
+					margin-bottom: 1rem;
+				}
+				&__c{
+					&__cCGraphic{
+						height: 400px;
+						border: thin solid #ddd;
+					}
+					&__cCnvt{
+						background-color: #05040C;
+						display: flex;
+						align-items: center;
+						justify-content: flex-start;
+						&__ct{
+							@media (min-width: 690px){
+								padding: 1rem;
+							}
+							&__mL{
+								display: flex;
+								align-items: center;
+								justify-content: space-between;
+								flex-flow: wrap row;
+								flex: 0 0 100%;
+								@media (min-width: 690px){
+									flex-flow: nowrap row;
+								}
+								&__i{
+									color: #fff;
+									padding-left: 10px;
+							    padding-right: 10px;
+							    display: flex;
+							    align-items: center;
+							    justify-content: center;
+							    flex-flow: wrap column;
+							    text-align: center;
+							    flex: 0 0 33.333333%;
+							    p{
+							    	margin-bottom: 0.5rem;
+							    }
+							    &:first-child,
+							    &:nth-child(2){
+							    	p{
+							    		font-size: 0.9rem;
+							    	}
+							    	@media (min-width: 690px){
+							    		p{
+							    			max-width: 80%;
+							    		}
+							    	}
+							    }
+							    &:first-child{
+							    	p{
+							    		strong{
+							    			color: #4CA83D;
+							    		}
+							    	}
+							    }
+							    &:nth-child(2){
+							    	p{
+							    		strong{
+							    			color: #D5270F;
+							    		}
+							    	}
+							    }
+							    &:nth-child(3){
+							    	p{
+							    		font-size: 0.9rem;
+							    	}
+							    }
+							    &__cIptFk{
+							    	background-color: #fff;
+							    	border-radius: 8px;
+							    	padding: 0.6rem 0.35rem;
+							    	position: relative;
+							    	display: flex;
+							    	align-items: center;
+							    	justify-content: center;
+							    	span{
+							    		position: absolute;
+							    		color: #000;
+							    		left: 0;
+							    		font-size: 1.06rem;
+							    	}
+							    	input{
+							    		border-radius: unset;
+							    		border: none;
+							    		outline: none;
+							    		font-size: 1.5rem;
+							    		width: auto;
+							    		padding-left: 29px;
+							    		max-width: 120px;
+							    	}
+							    }
+							    &__itpExt{
+							    	width: 100%;
+							    	padding: 0.5rem;
+							    	font-size: 1rem;
+							    	margin-bottom: 0.85rem;
+							    }
+							    &__btnEmail{
+							    	cursor: pointer;
+							    	text-align: center;
+										background-color: $theme-clr-btn-linkinit;
+										color: #fff;
+										transition: all ease-in-out .2s;
+										padding: 0.55rem 1.65rem;
+										font-size: 1rem;
+										border-radius: 1.3rem;
+										&:link,
+								    &:visited,
+								    &:focus,
+								    &:active{
+								    	color: #fff;
+								    }
+								    &:hover{
+								    	background-color: darken($theme-clr-btn-linkinit, 10%);
+								    }
+							    }
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 		&__cGrpBtn{
 			display: flex;
@@ -1975,6 +2101,38 @@ $min-headertop : 4.5rem;
 								}
 							}
 						}
+					}
+				}
+			}
+		}
+		&__cPriceTrend{
+			&__cTitle{
+				h2{
+					font-size: 1.65rem;
+					margin-bottom: 0.5rem;
+				}
+			}
+			&__cCont{
+				&__c{
+					&__ct{
+						height: 450px;
+						border: thin solid #ddd;
+					}
+				}
+			}
+		}
+		&__cVarDrtDay{
+			&__cTitle{
+				margin-bottom: 0.5rem;
+				h2{
+					font-size: 1.65rem;
+				}
+			}
+			&__cCont{
+				&__c{
+					&__ct{
+						height: 450px;
+						border: thin solid #ddd;
 					}
 				}
 			}

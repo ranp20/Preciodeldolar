@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<?php require_once 'includes/inc-header_links.php';?>
-	<title>Blog | Precio del dólar</title>
+	<title>Análisis del dólar | Precio del dólar</title>
 </head>
 <body>
 	<?php require_once 'includes/inc-header_top.php';?>
@@ -75,7 +75,37 @@
 				</div>
 			</div>
 		</section>
+		<section class="c_wrapper">
+			<div class="c_wrapper__c box-redx_wtout-p mgb-2">
+				<div class="c_wrapper__c__cPriceTrend">
+					<div class="c_wrapper__c__cPriceTrend__cTitle talign-c">
+						<h2>Tendencia del Precio de Dólar</h2>
+					</div>
+					<div class="c_wrapper__c__cPriceTrend__cCont">
+						<div class="c_wrapper__c__cPriceTrend__cCont__c">
+							<div class="c_wrapper__c__cPriceTrend__cCont__c__ct"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="c_wrapper">
+			<div class="c_wrapper__c box-redx_wtout-p mgb-2">
+				<div class="c_wrapper__c__cVarDrtDay">
+					<div class="c_wrapper__c__cVarDrtDay__cTitle talign-c">
+						<h2>Variación del Precio del dólar durante el día</h2>
+						<p>19 de Agosto</p>
+					</div>
+					<div class="c_wrapper__c__cVarDrtDay__cCont">
+						<div class="c_wrapper__c__cVarDrtDay__cCont__c">
+							<div class="c_wrapper__c__cVarDrtDay__cCont__c__ct"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	</main>
+	<?php require_once 'includes/inc-footer.php';?>
 	<script type="text/javascript" src="<?= $url;?>js/main.js"></script>
 </body>
 </html>

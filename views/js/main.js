@@ -25,6 +25,10 @@ $(() => {
 	if(filename == ""){
 		// $(".c_Htop__c__ch__cOptions__mDesk__m__i a").add($(".c_Htop__c__ch__cOptions__mMobile__m__i a")).removeClass("active");
 		$(".c_Htop__c__ch__cOptions__mDesk__m__i a").eq(0).add($(".c_Htop__c__ch__cOptions__mMobile__m__i a").eq(0)).addClass("active");
+	}else if(filename == "analisis-del-dolar"){$(".c_Htop__c__ch__cOptions__mDesk__m__i a").eq(1).add($(".c_Htop__c__ch__cOptions__mMobile__m__i a").eq(1)).addClass("active");
+	}else if(filename == "casas-de-cambio"){$(".c_Htop__c__ch__cOptions__mDesk__m__i a").eq(2).add($(".c_Htop__c__ch__cOptions__mMobile__m__i a").eq(2)).addClass("active");
+	}else if(filename == "noticias"){$(".c_Htop__c__ch__cOptions__mDesk__m__i a").eq(3).add($(".c_Htop__c__ch__cOptions__mMobile__m__i a").eq(3)).addClass("active");
+	}else if(filename == "nosotros"){$(".c_Htop__c__ch__cOptions__mDesk__m__i a").eq(4).add($(".c_Htop__c__ch__cOptions__mMobile__m__i a").eq(4)).addClass("active");
 	}else{
 		$(".c_Htop__c__ch__cOptions__mDesk__m__i a").removeClass("active");
 		$('.c_Htop__c__ch__cOptions__mDesk__m__i a[href="' + filename + '"]').addClass("active");
