@@ -110,6 +110,7 @@
 				</div>
 			</div>
 		</section>
+		<!--
 		<section class="c_wrapper">
 			<div class="c_wrapper__c box-redx mgb-1">
 				<div class="c_wrapper__c__cListExchH">
@@ -117,7 +118,7 @@
 						if(isset($_GET) && count($_GET) > 0){
 							if(isset($_GET['region']) && $_GET['region'] != ""){
 					?>
-						<div class="c_wrapper__c__cListExchH__cTitle">
+						<div class="c_wrapper__c__cListExchH__cTitle talign-c">
 							<h1>Casas de cambio en "<?= ucfirst(str_replace("-"," ",$_GET['region']));?>"</h1>
 						</div>
 					<?php  
@@ -143,7 +144,7 @@
 							<li class="c_wrapper__c__cListExchH__cL__m__i">
 								<a href="casas-de-cambio/lima" class="c_wrapper__c__cListExchH__cL__m__link">
 									<span class="c_wrapper__c__cListExchH__cL__m__link__cImg">
-										<img src="<?= $url_admin;?>resources/images/exchange_houses/lima.jpg" alt="">
+										<img src="<?= $url_admin;?>resources/images/exchange_houses/regions/lima.jpg" alt="">
 									</span>
 									<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc">
 										<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc--name">LIMA >></span>
@@ -153,7 +154,7 @@
 							<li class="c_wrapper__c__cListExchH__cL__m__i">
 								<a href="casas-de-cambio/cuzco" class="c_wrapper__c__cListExchH__cL__m__link">
 									<span class="c_wrapper__c__cListExchH__cL__m__link__cImg">
-										<img src="<?= $url_admin;?>resources/images/exchange_houses/cuzco.jpg" alt="">
+										<img src="<?= $url_admin;?>resources/images/exchange_houses/regions/cuzco.jpg" alt="">
 									</span>
 									<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc">
 										<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc--name">CUZCO >></span>
@@ -163,7 +164,7 @@
 							<li class="c_wrapper__c__cListExchH__cL__m__i">
 								<a href="casas-de-cambio/piura" class="c_wrapper__c__cListExchH__cL__m__link">
 									<span class="c_wrapper__c__cListExchH__cL__m__link__cImg">
-										<img src="<?= $url_admin;?>resources/images/exchange_houses/piura.jpg" alt="">
+										<img src="<?= $url_admin;?>resources/images/exchange_houses/regions/piura.jpg" alt="">
 									</span>
 									<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc">
 										<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc--name">PIURA >></span>
@@ -173,7 +174,7 @@
 							<li class="c_wrapper__c__cListExchH__cL__m__i">
 								<a href="casas-de-cambio/lima" class="c_wrapper__c__cListExchH__cL__m__link">
 									<span class="c_wrapper__c__cListExchH__cL__m__link__cImg">
-										<img src="<?= $url_admin;?>resources/images/exchange_houses/lima.jpg" alt="">
+										<img src="<?= $url_admin;?>resources/images/exchange_houses/regions/lima.jpg" alt="">
 									</span>
 									<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc">
 										<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc--name">LIMA >></span>
@@ -183,7 +184,7 @@
 							<li class="c_wrapper__c__cListExchH__cL__m__i">
 								<a href="casas-de-cambio/cuzco" class="c_wrapper__c__cListExchH__cL__m__link">
 									<span class="c_wrapper__c__cListExchH__cL__m__link__cImg">
-										<img src="<?= $url_admin;?>resources/images/exchange_houses/cuzco.jpg" alt="">
+										<img src="<?= $url_admin;?>resources/images/exchange_houses/regions/cuzco.jpg" alt="">
 									</span>
 									<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc">
 										<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc--name">CUZCO >></span>
@@ -193,7 +194,7 @@
 							<li class="c_wrapper__c__cListExchH__cL__m__i">
 								<a href="casas-de-cambio/piura" class="c_wrapper__c__cListExchH__cL__m__link">
 									<span class="c_wrapper__c__cListExchH__cL__m__link__cImg">
-										<img src="<?= $url_admin;?>resources/images/exchange_houses/piura.jpg" alt="">
+										<img src="<?= $url_admin;?>resources/images/exchange_houses/regions/piura.jpg" alt="">
 									</span>
 									<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc">
 										<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc--name">PIURA >></span>
@@ -208,6 +209,127 @@
 				</div>
 			</div>
 		</section>
+		-->
+		<!--
+		<section class="c_wrapper">
+			<div class="c_wrapper__c box-redx mgb-1">
+				<div class="c_wrapper__c__cListExchH">
+					<div class="c_wrapper__c__cListExchH__cTitle">
+						<h1>Casas de cambio "Lima"</h1>
+					</div>
+					<div class="c_wrapper__c__cListExchH__cL">
+						<ul class="c_wrapper__c__cListExchH__cL__m">
+							<li class="c_wrapper__c__cListExchH__cL__m__i">
+								<a href="./casas-de-cambio/lima/cercado-de-lima" class="c_wrapper__c__cListExchH__cL__m__link">
+									<span class="c_wrapper__c__cListExchH__cL__m__link__cImg">
+										<img src="<?= $url_admin;?>resources/images/exchange_houses/districs/cercado-de-lima.jpg" alt="">
+									</span>
+									<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc">
+										<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc--name">CERCADO DE LIMA >></span>
+									</span>
+								</a>
+							</li>
+							<li class="c_wrapper__c__cListExchH__cL__m__i">
+								<a href="./casas-de-cambio/lima/ate" class="c_wrapper__c__cListExchH__cL__m__link">
+									<span class="c_wrapper__c__cListExchH__cL__m__link__cImg">
+										<img src="<?= $url_admin;?>resources/images/exchange_houses/districs/ate.jpg" alt="">
+									</span>
+									<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc">
+										<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc--name">ATE >></span>
+									</span>
+								</a>
+							</li>
+							<li class="c_wrapper__c__cListExchH__cL__m__i">
+								<a href="./casas-de-cambio/lima/barranco" class="c_wrapper__c__cListExchH__cL__m__link">
+									<span class="c_wrapper__c__cListExchH__cL__m__link__cImg">
+										<img src="<?= $url_admin;?>resources/images/exchange_houses/districs/barranco.jpg" alt="">
+									</span>
+									<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc">
+										<span class="c_wrapper__c__cListExchH__cL__m__link__cDesc--name">BARRANCO >></span>
+									</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		-->
+		<section class="c_wrapper">
+			<div class="c_wrapper__c box-redx mgb-1">
+				<div class="c_wrapper__c__cListExchH">
+					<div class="c_wrapper__c__cListExchH__cTitle">
+						<h1>Casas de cambio "Cercado de Lima"</h1>
+					</div>
+					<div class="c_wrapper__c__cListExchH__cLDist">
+						<div class="c_wrapper__c__cListExchH__cLDist__cTopBanner">
+							<img src="<?= $url_admin;?>resources/images/exchange_houses/districs/cercado-de-lima.jpg" alt="banner_cercado-de-lima" width="100" height="100">
+						</div>
+						<div class="c_wrapper__c__cListExchH__cLDist__ct">						
+							<ul class="c_wrapper__c__cListExchH__cLDist__ct__m">
+								<li class="c_wrapper__c__cListExchH__cLDist__ct__m__i">
+									<div class="c_wrapper__c__cListExchH__cLDist__ct__m__i__cImg">
+										<img src="<?= $url_admin;?>resources/images/utilities/icon-sbs.png" alt="">
+									</div>
+									<div class="c_wrapper__c__cListExchH__cLDist__ct__m__i__cDesc">
+										<h2 class="c_wrapper__c__cListExchH__cLDist__ct__m__i__cDesc--link">
+											<a href="./casas-de-cambio/lima/cercado-de-lima">
+												<span>Sudameris >></span>
+											</a>
+										</h2>
+										<h2 class="c_wrapper__c__cListExchH__cLDist__ct__m__i__cDesc--name">Dirección: Jr. Ignacio Merino 2001</h2>
+										<p class="c_wrapper__c__cListExchH__cLDist__ct__m__i__cDesc--desc">Referencia: En el cruce de Ignacio merino con Jr. José bernardo Alcedo / <span>Registrado en la SBS</span></p>
+									</div>
+								</li>
+								<li class="c_wrapper__c__cListExchH__cLDist__ct__m__i">
+									<div class="c_wrapper__c__cListExchH__cLDist__ct__m__i__cImg">
+										<img src="<?= $url_admin;?>resources/images/utilities/icon-sbs.png" alt="">
+									</div>
+									<div class="c_wrapper__c__cListExchH__cLDist__ct__m__i__cDesc">
+										<h2 class="c_wrapper__c__cListExchH__cLDist__ct__m__i__cDesc--link">
+											<a href="./casas-de-cambio/lima/cercado-de-lima">
+												<span>Jet Perú >></span>
+											</a>
+										</h2>
+										<h2 class="c_wrapper__c__cListExchH__cLDist__ct__m__i__cDesc--name">Dirección: Av. Arenales N° 2073-2077</h2>
+										<p class="c_wrapper__c__cListExchH__cLDist__ct__m__i__cDesc--desc">Referencia: 1 cuadra antes de C.C Risso / <span>Registrado en la SBS</span></p>
+									</div>
+								</li>
+								<li class="c_wrapper__c__cListExchH__cLDist__ct__m__i">
+									<div class="c_wrapper__c__cListExchH__cLDist__ct__m__i__cImg">
+										<img src="<?= $url_admin;?>resources/images/utilities/icon-sbs.png" alt="">
+									</div>
+									<div class="c_wrapper__c__cListExchH__cLDist__ct__m__i__cDesc">
+										<h2 class="c_wrapper__c__cListExchH__cLDist__ct__m__i__cDesc--link">
+											<a href="./casas-de-cambio/lima/cercado-de-lima">
+												<span>Francis >></span>
+											</a>
+										</h2>
+										<h2 class="c_wrapper__c__cListExchH__cLDist__ct__m__i__cDesc--name">Dirección: Jr. Ocoña 106</h2>
+										<p class="c_wrapper__c__cListExchH__cLDist__ct__m__i__cDesc--desc">Referencia: Al frente del hotel Bolivar / <span>Registrado en la SBS</span></p>
+									</div>
+								</li>
+								<li class="c_wrapper__c__cListExchH__cLDist__ct__m__i">
+									<div class="c_wrapper__c__cListExchH__cLDist__ct__m__i__cImg">
+										<img src="<?= $url_admin;?>resources/images/utilities/icon-sbs.png" alt="">
+									</div>
+									<div class="c_wrapper__c__cListExchH__cLDist__ct__m__i__cDesc">
+										<h2 class="c_wrapper__c__cListExchH__cLDist__ct__m__i__cDesc--link">
+											<a href="./casas-de-cambio/lima/cercado-de-lima">
+												<span>Dólares Emmanuel >></span>
+											</a>
+										</h2>
+										<h2 class="c_wrapper__c__cListExchH__cLDist__ct__m__i__cDesc--name">Dirección: Av. Colonial N° 1449, (Ex Oscar R. Benavides), Urb. San Rafael</h2>
+										<p class="c_wrapper__c__cListExchH__cLDist__ct__m__i__cDesc--desc">Referencia: Cerca del Tottus Zorritos / <span>Registrado en la SBS</span></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
 		<section class="c_wrapper">
 			<div class="c_wrapper__c box-redx mgb-2">
 				<div class="c_wrapper__c__cGrpBtn">
