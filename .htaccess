@@ -7,8 +7,8 @@ RewriteBase /preciodeldolar/
 RewriteRule ^/?$ index.php
 RewriteRule ^analisis-del-dolar?$ views/dollar-analysis.php
 RewriteRule ^casas-de-cambio?$ views/exchange-houses.php
-RewriteRule ^casas-de-cambio/([a-zA-Z_-]+)$ views/exchange-houses.php?region=$1
-RewriteRule ^casas-de-cambio/([a-zA-Z_-]+)/([a-zA-Z_-]+)$ views/exchange-houses.php?region=$1&distrito=$2
+RewriteRule ^casas-de-cambio/([a-zA-Z_-]+)$ views/exchange-houses.php?region=$1 [L,NC]
+RewriteRule ^casas-de-cambio/([a-zA-Z_-]+)/([a-zA-Z_-]+)$ views/exchange-houses.php?region=$1&distrito=$2 [L,NC]
 RewriteRule ^noticias?$ views/news.php
 RewriteRule ^nosotros?$ views/about-us.php
 
